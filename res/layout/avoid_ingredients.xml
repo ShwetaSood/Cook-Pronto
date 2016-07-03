@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" 
+    android:background="@drawable/back1">
+
+   <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="420dp"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/footer"
+        android:fillViewport="true" >
+        
+        <LinearLayout
+            android:layout_width="322dp"
+            android:layout_height="331dp"
+            android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvavoid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Ingredients To Avoid"
+                    android:textSize="20sp" 
+                    android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/egg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="30dp"
+                android:text="Egg" />
+
+          <CheckBox
+              android:id="@+id/poultry"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="31dp"
+              android:layout_marginLeft="56dp"
+              android:text="Poultry" />
+
+    <CheckBox
+        android:id="@+id/sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox2"
+        android:layout_below="@+id/checkBox2"
+        android:layout_marginTop="32dp"
+         android:layout_marginLeft="56dp"
+        android:text="Sugar" />
+
+     <CheckBox
+        android:id="@+id/shellfish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox3"
+        android:layout_below="@+id/checkBox3"
+        android:layout_marginTop="33dp"
+         android:layout_marginLeft="56dp"
+        android:text="Shellfish" />
+     
+      <CheckBox
+        android:id="@+id/nut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox4"
+        android:layout_below="@+id/checkBox4"
+        android:layout_marginTop="34dp"
+         android:layout_marginLeft="56dp"
+        android:text="Nut" />
+      
+       <CheckBox
+        android:id="@+id/soy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox4"
+        android:layout_below="@+id/checkBox4"
+        android:layout_marginTop="35dp"
+         android:layout_marginLeft="56dp"
+        android:text="Soy" />
+       
+        <CheckBox
+        android:id="@+id/wheat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox6"
+        android:layout_below="@+id/checkBox6"
+        android:layout_marginTop="36dp"
+         android:layout_marginLeft="56dp"
+        android:text="Wheat" />
+  
+    </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFA473" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/save"
+            android:onClick="cancelstate"
+              android:textStyle="bold"
+             android:background="#edda74" 
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="102dp"
+            android:onClick="savestate"
+            android:textStyle="bold"
+            android:background="#85bb65"
+            android:text="Save" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/path3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFA473"
+        android:paddingTop="0px"
+        android:text="Home>Busy Bee>Add Ingredients>                                                     Avoid Ingredients" />
+
+</RelativeLayout>

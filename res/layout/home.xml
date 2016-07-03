@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.cookpronto2.Home" >
+    
+    <ListView
+        android:id="@+id/lv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        
+        android:background="#fff4ce"
+        android:layout_marginTop="200dp"
+        android:visibility="visible" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/searchrecipe2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/lv2"
+        android:layout_marginTop="48dp"
+        android:background="#85bb65"
+        android:minHeight="51dip"
+        android:minWidth="66dp"
+        android:onClick="search_db"
+        android:text="Search"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/searchrecipe2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:ems="10" />
+
+
+    <Button
+        android:id="@+id/path1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFA473"
+        android:paddingTop="0px" 
+        android:text="Home" />
+
+     <TextView
+         android:id="@+id/have"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/autoCompleteTextView1"
+         android:layout_below="@+id/searchrecipe2"
+         android:layout_marginTop="42dp"
+         android:gravity="left|center_vertical"
+         android:text="What would you like to have today ?"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="18sp"
+         android:textStyle="bold"/>
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+     android:background="@drawable/back1"
+    tools:context="com.example.cookpronto2.Help_searchingre" >
+
+    <TextView
+        android:id="@+id/d3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/d2"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:text="The Button &apos;search by ingredients&apos; lead to the page where you can add ingredients and look for recipes."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/d2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/d3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:text="This page shows the recommendation of the categories you have chosen before"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/d1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cat_view"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:text="CATEGORY RESULTS"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/cat_view"
+        android:layout_width="fill_parent"
+        android:layout_height="240dp"
+        android:layout_above="@+id/d3"
+        android:layout_alignLeft="@+id/d3"
+        android:layout_marginBottom="14dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/search_ingredients_help" />
+
+</RelativeLayout>

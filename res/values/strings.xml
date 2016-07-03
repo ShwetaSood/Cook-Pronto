@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CookPronto</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_db__parse">CookPronto</string>
+    <string name="title_activity_splashbe">CookPronto</string>
+    <string name="title_activity_searchbyingredients">CookPronto</string>
+    <string name="title_activity_avoid_ingredients">CookPronto</string>
+    <string name="title_activity_ingreresults">CookPronto</string>
+    <string name="back_title">Previous Page</string>
+    <string name="help_title">Help</string>
+    <string name="home_title">Home</string>
+    <string name="title_activity_home">CookPronto</string>
+    <string name="title_activity_help__home">Help</string>
+    <string name="title_activity_help__avoid">Help</string>
+    <string name="title_activity_help_search">Help</string>
+    <string name="title_activity_help_searchingre">Help</string>
+    <string name="title_activity_help__searchingre__main">Help</string>
+    <string name="auto_complete">AutoComplete</string>
+    <string name="multi_auto_complete">Multi AutoComplete</string>
+
+    <string-array name="list_of_recipes">
+        <item>Potato Rasam</item>
+        <item>Stuffed Potato</item>
+        <item>Tasty Aloo</item>
+        <item>Tomato sauce</item>
+        <item>Aloo Dum</item>
+        <item>Eggs Benedict</item>
+        <item>Potato chat</item>
+        <item>Fish</item>
+        <item>Chicken Saute</item>
+        <item>Tomato Garlic Pasta</item>
+        <item>Potato Stuffed</item>
+        <item>Cauliflower Tadka</item>
+        <item>Tomato seafood soup</item>
+        <item>Egg and tomato</item>
+        <item>Pita Pocket</item>
+        <item>Simple Sesame Noodles</item>
+        <item>Cereals Grains</item>
+        <item>Tomato Basil Soup</item>
+        <item>Lime Sesame Salad</item>
+        <item>Melon tomato salad</item>
+        <item>Melon lime salad</item>
+        <item>Lasagna</item>
+        <item>Party Pizzas</item>
+        <item>Spinach Salsa</item>
+        <item>Mint Corn Salad</item>
+        <item>Chicken Spicy Roll</item>
+        <item>Honey Mint Syrup</item>
+    </string-array>
+    <string-array name="list_of_ingre">
+        <item>potato</item>
+        <item>water</item>
+        <item>salt</item>
+        <item>pepper</item>
+        <item>onion</item>
+        <item>soy</item>
+        <item>vinegar</item>
+        <item>peas</item>
+        <item>rice</item>
+        <item>olive</item>
+        <item>blanched</item>
+        <item>oil</item>
+        <item>cauliflower</item>
+        <item>garlic</item>
+        <item>plum</item>
+        <item>egg</item>
+        <item>milk</item>
+        <item>spinach</item>
+        <item>wheat</item>
+        <item>sesame</item>
+        <item>noodles</item>
+        <item>coconut</item>
+        <item>oats</item>
+        <item>millet</item>
+        <item>quinoa</item>
+        <item>honey</item>
+        <item>fruit</item>
+        <item>nut</item>
+        <item>basil</item>
+        <item>tomato</item>
+        <item>cheese</item>
+        <item>lettuce</item>
+        <item>cucumber</item>
+        <item>melon</item>
+        <item>cherry</item>
+        <item>mint</item>
+        <item>wine</item>
+        <item>corn</item>
+        <item>chicken</item>
+        <item>mayonnaise</item>
+        <item>sauce</item>
+        <item>lasagna</item>
+        <item>mozzarella</item>
+        <item>dough</item>
+        <item>kiwi</item>
+    </string-array>
+
+    <string name="title_activity_help_search_results">Help_search_results</string>
+
+</resources>

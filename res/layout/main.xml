@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="2dp"
+    android:background="@drawable/back"
+    tools:context=".MainActivity" >
+
+<Button
+    android:id="@+id/path5"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="#FFA473"
+    android:paddingTop="0px"
+    android:text="Home >Busy Bee" />
+
+     <ListView
+         android:id="@+id/lv"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/btn_ingr"
+         android:layout_marginTop="15dp"
+         android:background="#fff4ce"
+         android:visibility="visible" >
+     </ListView>
+
+     <Button
+         android:id="@+id/btn_ingr"
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/path5"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="20dp"
+         android:background="#85bb65"
+         android:angle="300"
+         android:onClick="calltosearch"
+         android:text="Search By Ingredients"
+         android:textStyle="bold" />
+    
+</RelativeLayout>

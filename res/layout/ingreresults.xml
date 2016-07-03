@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.cookpronto2.Ingreresults" >
+
+    <ListView
+        android:id="@+id/lv3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true" 
+        android:background="#fff4ce">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/path4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFA473"
+        android:paddingTop="0px"
+        android:text="Home >Busy Bee >Add Ingredients >Recipe" />
+
+    <TextView
+        android:id="@+id/text_results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/path4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Your Search Results..."
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    
+</RelativeLayout>

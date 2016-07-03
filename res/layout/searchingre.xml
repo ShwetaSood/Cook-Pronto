@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+<ImageView
+        android:id="@+id/imV"
+        android:layout_width="90px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView01"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/TextView01"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="#808080"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imV"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Name:"
+        android:textColor="#6e7b8b"
+        android:textSize="10pt"
+         />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/imV"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Time:"
+        android:textColor="#6e7b8b"
+        android:textSize="10pt"
+         />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView02"
+        android:layout_alignBottom="@+id/TextView02"
+        android:layout_alignLeft="@+id/tv_nama"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Time"
+        android:textColor="#808080"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+         
+
+</RelativeLayout>
